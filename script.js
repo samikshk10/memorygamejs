@@ -17,7 +17,7 @@ function timer(){
 clearInterval(istimer);
 window.location.reload();
       }
-    }, 200);
+    }, 1000);
    
 
 }
