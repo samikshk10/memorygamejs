@@ -111,7 +111,7 @@ display: none;
 
 .card.shake{
     background-color:#f15f5f;
-    animation: shake 0.7s,flip 0.2s;
+    animation: shake 0.7s,flip 0.3s;
   }
   
 
