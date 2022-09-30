@@ -97,7 +97,7 @@ elements.forEach((eleme)=>{
                second="";
                
 
-                }, 850);
+                }, 1000);
               
                 
             }

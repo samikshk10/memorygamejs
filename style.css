@@ -81,8 +81,8 @@ display: none;
 .card.card-clicked{
     pointer-events: none;
     animation: flip 0.3s;
-
-}
+    
+  }
 
 @keyframes flip{
     0%{
@@ -111,11 +111,10 @@ display: none;
 
 .card.shake{
     background-color:#f15f5f;
-    animation: shake 0.3s ;
+    animation: shake 0.7s,flip 0.2s;
+  }
+  
 
-    animation: flip 0.3s;
-
-}
 
 @keyframes shake {
     0% {
