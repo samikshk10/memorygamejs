@@ -13,7 +13,7 @@ function timer(){
        {
         alert('gameover');
         timecounter=0;
-    
+    //
 clearInterval(istimer);
 window.location.reload();
       }
