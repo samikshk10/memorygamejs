@@ -6,6 +6,23 @@ let second="";
 let time=60;
 let timecounter=0;
 let checked=0;
+
+
+    shufflecards();
+
+function shufflecards(){
+
+    card.forEach(cards=>{
+        const number=[...Array(card.length).keys()];
+        const random= Math.floor(Math.random()*card.length);
+        cards.style.order=number[random];
+    });
+}
+
+
+
+
+
 function timer(){
     let istimer=setInterval(() => {
         document.getElementById('timer').innerHTML=time--;
